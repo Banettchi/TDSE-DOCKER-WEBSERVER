@@ -87,6 +87,8 @@ Accede a:
 - `http://localhost:34001/greeting?name=Diego`
 - `http://localhost:34002/greeting?name=Diego`
 
+![localhost](images/localhost.png)
+
 ### 4. Docker Compose (web + MongoDB)
 
 ```bash
@@ -94,6 +96,12 @@ docker-compose up -d
 ```
 
 Accede al servicio web en: `http://localhost:8087/greeting`
+
+![localhost_greeting](images/localhost_greeting.png)
+
+Todos los contenedores corriendo simultáneamente:
+
+![Todos los contenedores](images/contenedores.png)
 
 ---
 
@@ -220,4 +228,3 @@ springdocker/
 ├── pom.xml
 └── README.md
 ```
-
